@@ -1,8 +1,0 @@
-seed: 0
-batch_size: 64
-encoding: binary
-dataset: NMNIST
-data_path: ../datasets/N-MNIST
-workers: 4
-attack: PGDTimeShift_MultiNorm
-output_dir: ./logs/PGDTimeShift_MultiNorm/binary/nmnist/multi_model

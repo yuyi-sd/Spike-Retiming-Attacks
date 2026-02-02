@@ -1,8 +1,0 @@
-seed: 0
-batch_size: 64
-encoding: integer
-dataset: NMNIST
-data_path: ../datasets/N-MNIST
-workers: 4
-attack: PGDTimeShiftL0
-output_dir: ./logs/PGDTimeShift_L0/integer/nmnist/multi_model
