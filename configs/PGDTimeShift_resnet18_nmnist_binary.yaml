@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: binary
+model: spiking_resnet18
+dataset: NMNIST
+data_path: ../datasets/N-MNIST
+workers: 16
+attack: PGDTimeShift
+resume: ./checkpoints/ResNet18_NMNIST_binary.pth
+output_dir: ./logs/PGDTimeShift/binary/nmnist/resnet18

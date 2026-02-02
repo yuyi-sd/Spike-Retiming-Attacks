@@ -1,0 +1,23 @@
+# seed: 0
+# batch_size: 8
+# encoding: integer
+# model: spiking_vggsnn
+# dataset: DVSGesture
+# data_path: /home/yuyi/datasets/DVSGesture
+# workers: 16
+# attack: Clean
+# resume: /home/yuyi/PDSG-SDA/checkpoints/VGGSNN_DVSGesture.pth
+# output_dir: /home/yuyi/PDSG-SDA/logs/Clean/integer/dvsgesture/vggsnn
+
+seed: 0
+batch_size: 64
+T: 10
+encoding: integer
+model: spiking_vggsnn
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 4
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/VGGSNN_DVSGesture.pth
+output_dir: ./rebuttal/logs/SDA/dvsgesture/vggsnn/integer

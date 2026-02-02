@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: integer
+model: spiking_vggsnn
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 16
+attack: PGDTimeShift
+resume: ./checkpoints/VGGSNN_adv_eps1_DVSGesture.pth
+output_dir: ./logs/PGDTimeShift/integer/dvsgesture/vggsnn_adv_eps1

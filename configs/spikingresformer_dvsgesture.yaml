@@ -1,0 +1,13 @@
+seed: 0
+batch_size: 2
+T: 10
+encoding: integer
+model: spikingresformer_dvsg
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 4
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/spikingresformer_DVSGesture.pth
+output_dir: ./rebuttal/logs/SDA/dvsgesture/spikingresformer/integer
+

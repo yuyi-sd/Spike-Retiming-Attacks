@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: integer
+model: spiking_vggsnn
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 16
+attack: PGDTimeShiftL0
+resume: /home/yuyi/train_snn_release/outputs/vggsnn_adv_multi_avg_dvsgesture/checkpoint_latest.pth
+output_dir: ./logs/PGDTimeShiftL0/dvsgesture/vggsnn_multi_avg/integer

@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 2
+encoding: binary
+model: spikingresformer_s
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 16
+attack: PGDTimeShiftL1
+resume: /home/yuyi/SpikingResformer-main/outputs/dvsg_binary/checkpoint_max_acc1.pth
+output_dir: ./logs/PGDTimeShiftL1/binary/dvsgesture/spikingresformer_s

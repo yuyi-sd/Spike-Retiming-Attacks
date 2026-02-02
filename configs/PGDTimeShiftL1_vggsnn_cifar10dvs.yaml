@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: integer
+model: spiking_vggsnn
+dataset: CIFAR10DVS
+data_path: ../datasets/CIFAR10DVS
+workers: 16
+attack: PGDTimeShiftL1
+resume: ./checkpoints/VGGSNN_CIFAR10DVS.pth
+output_dir: ./logs/PGDTimeShiftL1/integer/cifar10dvs/vggsnn

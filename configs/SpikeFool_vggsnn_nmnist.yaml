@@ -1,0 +1,23 @@
+# seed: 0
+# batch_size: 8
+# encoding: integer
+# model: spiking_vggsnn
+# dataset: NMNIST
+# data_path: /home/yuyi/datasets/N-MNIST
+# workers: 16
+# attack: Clean
+# resume: /home/yuyi/PDSG-SDA/checkpoints/VGGSNN_NMNIST.pth
+# output_dir: /home/yuyi/PDSG-SDA/logs/Clean/integer/nmnist/vggsnn
+
+seed: 0
+batch_size: 64
+T: 10
+encoding: integer
+model: spiking_vggsnn
+dataset: NMNIST
+data_path: ../datasets/N-MNIST
+workers: 4
+attack: SpikeFool
+attack_eps: 0
+resume: ./checkpoints/VGGSNN_NMNIST.pth
+output_dir: ./rebuttal/logs/SpikeFool/nmnist/vggsnn/integer

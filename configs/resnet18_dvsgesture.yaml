@@ -1,0 +1,12 @@
+seed: 0
+batch_size: 64
+T: 10
+encoding: integer
+model: spiking_resnet18
+dataset: DVSGesture
+data_path: ../datasets/DVSGesture
+workers: 4
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/ResNet18_DVSGesture.pth
+output_dir: ./rebuttal/logs/SDA/dvsgesture/resnet18/integer

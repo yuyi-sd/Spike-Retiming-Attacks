@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: binary
+model: simplenet
+dataset: NMNIST
+data_path: ../datasets/N-MNIST
+workers: 16
+attack: PGDTimeShiftL0
+resume: ./checkpoints/SimpleNet_NMNIST_binary.pth
+output_dir: ./logs/PGDTimeShiftL0/binary/nmnist/simplenet

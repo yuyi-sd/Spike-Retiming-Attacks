@@ -1,0 +1,12 @@
+seed: 0
+batch_size: 64
+T: 10
+encoding: binary
+model: simplenet_v2
+dataset: NMNIST
+data_path: ../datasets/N-MNIST
+workers: 4
+attack: SDA
+attack_eps: 0
+resume: ./checkpoints/SimpleNet_v2_NMNIST_binary.pth
+output_dir: ./rebuttal/logs/SDA/nmnist/simplenet_v2

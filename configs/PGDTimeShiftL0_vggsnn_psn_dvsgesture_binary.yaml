@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 8
+encoding: binary
+model: spiking_vggsnn_psn
+dataset: DVSGesture
+data_path: /home/yuyi/datasets/DVSGesture
+workers: 16
+attack: PGDTimeShiftL0
+resume: /home/yuyi/PDSG-SDA/checkpoints/VGGSNN_PSN_DVSGesture_binary.pth
+output_dir: /home/yuyi/PDSG-SDA/logs/PGDTimeShiftL0/binary/dvsgesture/vggsnn_psn

@@ -1,0 +1,24 @@
+# seed: 0
+# batch_size: 8
+# encoding: binary
+# model: spiking_vggsnn
+# dataset: CIFAR10DVS
+# data_path: /home/yuyi/datasets/CIFAR10DVS
+# workers: 16
+# attack: Clean
+# resume: /home/yuyi/PDSG-SDA/checkpoints/VGGSNN_CIFAR10DVS_binary.pth
+# output_dir: /home/yuyi/PDSG-SDA/logs/Clean/binary/cifar10dvs/vggsnn
+
+seed: 0
+batch_size: 64
+T: 10
+encoding: binary
+model: spiking_vggsnn
+dataset: CIFAR10DVS
+data_path: ../datasets/CIFAR10DVS
+workers: 4
+attack: SpikeFool
+attack_eps: 0
+resume: ./checkpoints/VGGSNN_CIFAR10DVS_binary.pth
+output_dir: ./rebuttal/logs/SpikeFool/cifar10dvs/vggsnn
+

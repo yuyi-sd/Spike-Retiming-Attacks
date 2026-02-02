@@ -1,0 +1,10 @@
+seed: 0
+batch_size: 64
+encoding: binary
+model: spiking_vggsnn
+dataset: CIFAR10DVS
+data_path: ../datasets/CIFAR10DVS
+workers: 16
+attack: PGDTimeShift
+resume: ./checkpoints/VGGSNN_CIFAR10DVS_binary.pth
+output_dir: ./logs/PGDTimeShift/binary/cifar10dvs/vggsnn
