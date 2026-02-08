@@ -1,4 +1,4 @@
-# Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks (ICLR 2025)
+# Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks (ICLR 2026)
 
 This repo is the official implementation of "[Time Is All It Takes: Spike-Retiming Attacks on Event-Driven Spiking Neural Networks](https://openreview.net/forum?id=b107VY19Id&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))" (ICLR 2026)
 
